@@ -335,12 +335,10 @@ hgroup {
 ul {
   margin-left: 1.45rem;
   margin-right: 0;
-  margin-top: 0;
   padding-bottom: 0;
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
-  margin-bottom: 1.45rem;
   list-style-position: outside;
   list-style-image: none;
 }
@@ -619,4 +617,113 @@ pre tt:after {
   html {
     font-size: 100%;
   }
+}
+.main-contact{
+  display: flex;
+  min-height: 300px;
+  background-color:rebeccapurple;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.contact-div{
+  margin-top: 100px;
+}
+.contact-div h3{
+  text-align: center;
+}
+.contact-div p{
+  text-align: center;
+color: #666;
+}
+.contact-div .footer-1,.contact-div .footer-2,.contact-div .footer-3{
+  border: 3px solid white;
+  border-radius: 10px;
+  margin: 15px;
+}
+.footer-2 a{
+  color: white;
+}
+/* .card-container{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+} */
+.main-content{
+  min-height: 100vh;
+}
+footer{
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding: 10px;
+}
+.main-footer{
+  display: flex;
+  min-height: 300px;
+  background-color:rgb(22, 22, 22);
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.footer-1,.footer-2,.footer-3{
+  height: 200px;
+  width: 33%;
+  color: white;
+}
+.footer-3-i{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 120px;
+}
+.footer-3 h2{
+  text-align: center;
+}
+.footer-3 i{
+  font-size: 25px;
+  padding: 20px;
+  border-radius: 50%;
+  margin: 5px;
+}
+.footer-1 ul{
+  list-style: none;
+}
+.footer-1 ul i{
+color: green;
+}
+.footer-1 h2{
+margin-left: 30px;
+}
+.footer-2{
+  text-align: center;
+}
+.footer-2 h4{
+  margin: 10px;
+}
+.footer-2 i{
+  margin: 10px;
+}
+.recipie-img{
+  width: 100%;
+  height: 500px;
+}
+.recipie h1{
+  text-align: center;
+}
+.recipie-content h3{
+  text-align: center;
+}
+.nav{
+  position: fixed;
+  top: 0;
+}
+.recipie-descript{
+  color: #666;
+text-align: justify;
+margin-left: 100px;
+margin-bottom: 100px;
 }

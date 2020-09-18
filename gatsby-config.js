@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: `Recipie  Website`,
+    description: `A Recipie Website to a demo for content ful api`,
+    author: `Nadir Ali`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -10,11 +10,17 @@ module.exports = {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `images`,
-        path: `${__dirname}/src/images`,
+        path: `${__dirname}/src`,
       },
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
+    {resolve:'gatsby-source-contentful',
+    options:{
+      spaceId:'nybzb8duecoi',
+      accessToken:'pBNoXxlBk7LKeo_SGy16H-UnOCO9LIaB8_EUhoHc5jQ'
+    }
+  },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
